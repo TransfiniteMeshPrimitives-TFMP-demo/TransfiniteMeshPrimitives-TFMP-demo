@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/main_icon.png" alt="TFMP icon" width="900">
+  <img src="assets/main_icon.png" alt="TFMP icon" width="500">
 </p>
 
 <p align="center">
@@ -14,7 +14,6 @@
   <a href="#demo">Demo</a> •
   <a href="#example-geometries">Example Geometries</a> •
   <a href="#tfmp-to-gmsh">TFMP to Gmsh</a> •
-  <a href="#supported-primitive-templates">Primitive Templates</a> •
   <a href="#repository-scope">Repository Scope</a> •
   <a href="#contact">Contact</a>
 </p>
@@ -28,7 +27,6 @@ TFMP is a visual authoring tool concept for constructing structured 3D geometry 
 This repository is presented as a **demo showcase** of the interface and workflow design.  
 It does **not** include source code, executable binaries, or packaged releases.
 
-
 <p align="center">
   <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
 </p>
@@ -38,6 +36,7 @@ It does **not** include source code, executable binaries, or packaged releases.
 ## Highlights
 
 - Template-based creation of 3D primitives
+- Primitive library including rectangular prisms, triangular prisms, sector-based shapes, and annular-sector variants
 - Interactive editing of size, position, and rotation
 - Face-to-face attachment workflow between primitives
 - Physical group assignment for point / line / surface / volume entities
@@ -51,7 +50,7 @@ It does **not** include source code, executable binaries, or packaged releases.
 
 ### 1. Primitive authoring
 
-Create geometry from predefined primitive templates, including rectangular prisms, triangular prisms, sector-based shapes, and annular sector variants.
+Create geometry from predefined primitive templates, including rectangular prisms, triangular prisms, sector-based shapes, and annular-sector variants.
 
 <p align="center">
   <img src="assets/demo/primitive_editor.png" alt="Primitive editor" width="900">
@@ -144,7 +143,7 @@ The following examples show the correspondence between the geometry authored in 
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: corresponding geometry / mesh result viewed in Gmsh.</sub>
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
 </p>
 
 ### Example B. TFMP geometry → Gmsh result
@@ -155,7 +154,7 @@ The following examples show the correspondence between the geometry authored in 
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: corresponding geometry / mesh result viewed in Gmsh.</sub>
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
 </p>
 
 ### Example C. TFMP geometry → Gmsh result
@@ -166,21 +165,8 @@ The following examples show the correspondence between the geometry authored in 
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: corresponding geometry / mesh result viewed in Gmsh.</sub>
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
 </p>
-
----
-
-## Supported Primitive Templates
-
-- Rect Prism
-- Tri Prism
-- Sector Circle
-- Sector Ellipse
-- Sector Concave Circle
-- Sector Concave Ellipse
-- Annular Sector Circle
-- Annular Sector Ellipse
 
 ---
 
@@ -210,13 +196,6 @@ This repository does **not** provide:
 - Source code
 - Executable binaries
 - Packaged releases
-
----
-
-## Notes
-
-TFMP does **not** generate the final mesh directly.  
-Instead, it prepares geometry and related settings for **Gmsh GEO export**, after which the actual mesh generation is performed in **Gmsh**.
 
 ---
 
