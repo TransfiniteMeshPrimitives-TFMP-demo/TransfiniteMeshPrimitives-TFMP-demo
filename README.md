@@ -11,7 +11,7 @@
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#highlights">Highlights</a> •
-  <a href="#demo">Demo</a> •
+  <a href="#featured-interaction">Featured Interaction</a> •
   <a href="#example-geometries">Example Geometries</a> •
   <a href="#tfmp-to-gmsh">TFMP to Gmsh</a> •
   <a href="#repository-scope">Repository Scope</a> •
@@ -46,30 +46,14 @@ It does **not** include source code, executable binaries, or packaged releases.
 
 ---
 
-## Demo
+## Featured Interaction
 
-### 1. Face attachment
+### Face attachment
 
 Attach one primitive face to another through a face-matching workflow for structured geometry composition.
 
 <p align="center">
   <img src="assets/demo/face_attachment.gif" alt="Face attachment demo" width="900">
-</p>
-
-### 2. Physical groups
-
-Assign geometry entities into physical groups for downstream Gmsh workflows.
-
-<p align="center">
-  <img src="assets/demo/physical_groups.png" alt="Physical groups panel" width="900">
-</p>
-
-### 3. Mesh settings
-
-Configure edge-wise mesh settings for transfinite meshing workflows, including node count, spacing mode, and ratio control.
-
-<p align="center">
-  <img src="assets/demo/mesh_settings.png" alt="Mesh settings dialog" width="900">
 </p>
 
 ---
