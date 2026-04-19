@@ -5,11 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/main_icon.png" alt="TFMP icon" width="800">
-</p>
-
-<p align="center">
-  <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
+  <img src="assets/main_icon.png" alt="TFMP icon" width="900">
 </p>
 
 <p align="center">
@@ -31,6 +27,11 @@ TFMP is a visual authoring tool concept for constructing structured 3D geometry 
 
 This repository is presented as a **demo showcase** of the interface and workflow design.  
 It does **not** include source code, executable binaries, or packaged releases.
+
+
+<p align="center">
+  <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
+</p>
 
 ---
 
