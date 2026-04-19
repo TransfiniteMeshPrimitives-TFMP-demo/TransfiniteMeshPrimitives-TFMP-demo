@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/tfmp.ico" alt="TFMP icon" width="96">
+  <img src="assets/main_icon.png" alt="TFMP icon" width="800">
 </p>
 
 <p align="center">
