@@ -12,8 +12,7 @@
   <a href="#overview">Overview</a> •
   <a href="#highlights">Highlights</a> •
   <a href="#featured-interaction">Featured Interaction</a> •
-  <a href="#example-geometries">Example Geometries</a> •
-  <a href="#tfmp-to-gmsh">TFMP to Gmsh</a> •
+  <a href="#examples">Examples</a> •
   <a href="#repository-scope">Repository Scope</a> •
   <a href="#contact">Contact</a>
 </p>
@@ -58,16 +57,21 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 ---
 
-## Example Geometries
+## Examples
 
-This section presents representative geometry setups created in TFMP to demonstrate how template-based primitives can be combined into more structured 3D authoring workflows.
+This section presents representative geometry setups created in TFMP and their corresponding downstream results in Gmsh.
 
 ### Example 1. Multi-primitive composition
 
 An example of combining multiple primitives into a larger structured geometry through placement and face attachment.
 
 <p align="center">
-  <img src="assets/demo/examples/example_01_tfmp.png" alt="Example geometry 1 in TFMP" width="900">
+  <img src="assets/demo/examples/example_01_tfmp.png" alt="Example 1 in TFMP" width="440">
+  <img src="assets/demo/tfmp_to_gmsh/example_01_gmsh.png" alt="Example 1 in Gmsh" width="440">
+</p>
+
+<p align="center">
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
 </p>
 
 ### Example 2. Sector-based geometry construction
@@ -75,7 +79,12 @@ An example of combining multiple primitives into a larger structured geometry th
 An example showing sector and annular-sector primitives used to build curved structured geometry.
 
 <p align="center">
-  <img src="assets/demo/examples/example_02_tfmp.png" alt="Example geometry 2 in TFMP" width="900">
+  <img src="assets/demo/examples/example_02_tfmp.png" alt="Example 2 in TFMP" width="440">
+  <img src="assets/demo/tfmp_to_gmsh/example_02_gmsh.png" alt="Example 2 in Gmsh" width="440">
+</p>
+
+<p align="center">
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
 </p>
 
 ### Example 3. Physical-group-ready setup
@@ -83,49 +92,12 @@ An example showing sector and annular-sector primitives used to build curved str
 An example prepared for downstream Gmsh workflows with geometry entities organized into physical groups.
 
 <p align="center">
-  <img src="assets/demo/examples/example_03_tfmp.png" alt="Example geometry 3 in TFMP" width="900">
-</p>
-
----
-
-## TFMP to Gmsh
-
-TFMP focuses on **geometry authoring and GEO preparation**.  
-The actual mesh is generated later in **Gmsh** according to the exported GEO definitions and transfinite meshing settings.
-
-The following examples show the correspondence between the geometry authored in TFMP and its downstream interpretation in Gmsh.
-
-### Example A. TFMP geometry → Gmsh result
-
-<p align="center">
-  <img src="assets/demo/tfmp_to_gmsh/example_a_tfmp.png" alt="TFMP example A" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_a_gmsh.png" alt="Gmsh example A" width="440">
+  <img src="assets/demo/examples/example_03_tfmp.png" alt="Example 3 in TFMP" width="440">
+  <img src="assets/demo/tfmp_to_gmsh/example_03_gmsh.png" alt="Example 3 in Gmsh" width="440">
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
-</p>
-
-### Example B. TFMP geometry → Gmsh result
-
-<p align="center">
-  <img src="assets/demo/tfmp_to_gmsh/example_b_tfmp.png" alt="TFMP example B" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_b_gmsh.png" alt="Gmsh example B" width="440">
-</p>
-
-<p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
-</p>
-
-### Example C. TFMP geometry → Gmsh result
-
-<p align="center">
-  <img src="assets/demo/tfmp_to_gmsh/example_c_tfmp.png" alt="TFMP example C" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_c_gmsh.png" alt="Gmsh example C" width="440">
-</p>
-
-<p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-based geometry / meshing result viewed in Gmsh.</sub>
+  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
 </p>
 
 ---
