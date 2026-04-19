@@ -39,7 +39,7 @@ It does **not** include source code, executable binaries, or packaged releases.
 - Primitive library including rectangular prisms, triangular prisms, sector-based shapes, and annular-sector variants
 - Interactive editing of size, position, and rotation
 - Face-to-face attachment workflow between primitives
-- Physical group assignment for point / line / surface / volume entities
+- Physical group assignment for point, line, surface, and volume entities
 - Edge mesh settings for transfinite meshing workflows
 - GEO export-oriented geometry preparation for Gmsh
 - 3D preview with geometry labels and workspace grid
