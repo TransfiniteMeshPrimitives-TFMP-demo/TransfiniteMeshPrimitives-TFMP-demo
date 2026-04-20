@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
-  <a href="#highlights">Highlights</a> •
+  <a href="#why-tfmp">Why TFMP?</a> •
   <a href="#featured-interaction">Featured Interaction</a> •
   <a href="#examples">Examples</a> •
   <a href="#repository-scope">Repository Scope</a> •
@@ -23,7 +23,9 @@
 
 TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions for downstream meshing workflows.
 
-Instead of editing Gmsh GEO scripts directly, TFMP focuses on template-based primitive authoring, editable UI-driven geometry construction, face-based assembly, transfinite-oriented mesh control, physical-group preparation, and consistent global ID handling before GEO export.
+Directly writing Gmsh GEO scripts is flexible, but it can become cumbersome when structured 3D geometry must be built, edited, rearranged, and kept consistent across transfinite settings, physical groups, and entity IDs.
+
+TFMP shifts that workflow from manual script editing to template-based, UI-driven geometry authoring. It focuses on editable primitive construction, face-based assembly, transfinite mesh control, physical-group preparation, visual preview, and consistent ID organization before GEO export.
 
 This repository is presented as a **demo showcase** of the interface and workflow design only.
 
@@ -37,16 +39,17 @@ This repository is presented as a **demo showcase** of the interface and workflo
 
 ---
 
-## Highlights
+## Why TFMP?
 
-- Template-based authoring of structured 3D primitives
-- Primitive library including rectangular prisms, triangular prisms, sector-based shapes, and annular-sector variants
-- Editable UI for dimensions, placement, and rotation instead of direct GEO scripting
-- Face-to-face attachment workflow for structured geometry assembly
-- Edge-wise mesh settings for transfinite meshing workflows, including node count, distribution mode, and ratio control
-- Physical-group assignment for point, line, surface, and volume entities
-- Consistent geometry preparation and global ID organization for downstream Gmsh GEO export
-- 3D preview with geometry labels and workspace grid
+Compared with writing Gmsh GEO files manually, TFMP is designed to make structured geometry authoring more editable, visual, and workflow-oriented.
+
+- Build structured 3D geometry from reusable primitive templates instead of rewriting repeated GEO blocks by hand
+- Edit dimensions, placement, and rotation through an interactive UI instead of repeatedly modifying GEO scripts
+- Assemble multi-part structures through face-to-face attachment instead of manual geometric alignment
+- Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
+- Organize physical groups for point, line, surface, and volume entities before export
+- Keep geometry entities and exported IDs more consistent for downstream Gmsh workflows
+- Preview the constructed geometry visually with workspace grid and labels before GEO export
 
 ---
 
