@@ -14,7 +14,7 @@
   <a href="#featured-interaction">Featured Interaction</a> •
   <a href="#examples">Examples</a> •
   <a href="#repository-scope">Repository Scope</a> •
-  <a href="#contact">Contact</a>
+  <a href="#author">Author</a>
 </p>
 
 ---
