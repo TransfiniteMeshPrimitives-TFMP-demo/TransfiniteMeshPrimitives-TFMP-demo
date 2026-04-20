@@ -1,7 +1,7 @@
 # TransfiniteMeshPrimitives (TFMP) — demo
 
 <p align="center">
-  Visual demo for authoring template-based 3D primitives for Gmsh GEO workflows, featuring editable geometry construction, face attachment, transfinite-oriented mesh control, physical groups, and GEO export.
+  Visual demo for authoring template-based 3D primitives for Gmsh GEO workflows, featuring editable geometry construction, face attachment, transfinite mesh control, physical groups, and GEO export.
 </p>
 
 <p align="center">
