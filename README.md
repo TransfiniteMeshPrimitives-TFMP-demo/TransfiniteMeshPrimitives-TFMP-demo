@@ -55,7 +55,7 @@ Compared with writing Gmsh GEO files manually, TFMP is designed to make structur
 
 ### Face attachment
 
-Attach one primitive face to another through a face-matching workflow for structured geometry composition.
+Attach one primitive face to another through a face-matching workflow for structured geometry assembly.
 
 <p align="center">
   <img src="assets/demo/face_attachment.gif" alt="Face attachment demo" width="900">
