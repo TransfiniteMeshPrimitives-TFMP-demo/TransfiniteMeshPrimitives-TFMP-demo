@@ -59,7 +59,7 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 ## Examples
 
-This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and its downstream result in Gmsh.
+This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and its downstream result in [Gmsh](https://gmsh.info/).
 
 ### Example 1. MOSFET structure
 
