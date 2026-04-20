@@ -23,7 +23,7 @@
 
 TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions for downstream meshing workflows.
 
-Directly writing Gmsh GEO scripts is flexible, but it can become less convenient when structured 3D geometry must be built, edited, rearranged, and kept consistent across transfinite settings, physical groups, and entity IDs. TFMP is designed to make that workflow more editable, visual, and workflow-oriented before GEO export.
+Directly writing Gmsh GEO scripts is flexible, but it can become less convenient when structured 3D geometry must be built, edited, rearranged, and kept consistent across transfinite settings, physical groups, and entity IDs.
 
 This repository is presented as a **demo showcase** of the interface and workflow design only.
 
@@ -38,8 +38,6 @@ This repository is presented as a **demo showcase** of the interface and workflo
 ---
 
 ## Why TFMP?
-
-Compared with writing Gmsh GEO files manually, TFMP is designed to make structured geometry authoring more editable, visual, and workflow-oriented.
 
 - Build structured 3D geometry from reusable primitive templates instead of rewriting repeated GEO blocks by hand
 - Edit dimensions, placement, and rotation through an interactive UI instead of repeatedly modifying GEO scripts
