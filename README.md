@@ -1,7 +1,7 @@
 # TransfiniteMeshPrimitives (TFMP) — demo
 
 <p align="center">
-  Visual demo for authoring template-based 3D primitives for Gmsh GEO workflows, featuring editable geometry construction, face attachment, transfinite mesh control, physical groups, and GEO export.
+  Visual demo for authoring template-based 3D primitives for [Gmsh](https://gmsh.info/) GEO workflows, featuring editable geometry construction, face attachment, transfinite mesh control, physical groups, and GEO export.
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 ## Examples
 
-This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and the corresponding downstream result in [Gmsh](https://gmsh.info/).
+This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and the corresponding downstream result in Gmsh.
 
 ### Example 1. MOSFET structure
 
