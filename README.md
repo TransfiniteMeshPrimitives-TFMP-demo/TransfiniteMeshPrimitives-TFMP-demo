@@ -40,7 +40,7 @@ It does **not** include source code, executable binaries, or packaged releases.
 - Face-to-face attachment workflow between primitives
 - Physical group assignment for point, line, surface, and volume entities
 - Edge mesh settings for transfinite meshing workflows
-- GEO export-oriented geometry preparation for Gmsh
+- Geometry preparation for Gmsh GEO export
 - 3D preview with geometry labels and workspace grid
 
 ---
@@ -59,7 +59,7 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 ## Examples
 
-This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and its downstream result in [Gmsh](https://gmsh.info/).
+This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and the corresponding downstream result in [Gmsh](https://gmsh.info/).
 
 ### Example 1. MOSFET structure
 
@@ -70,7 +70,7 @@ A structured device example showing how TFMP can be used to build and organize M
 </p>
 
 <p align="center">
-  <sub>Comparison between the geometry authored in TFMP and the corresponding geometry or mesh viewed in Gmsh.</sub>
+  <sub>TFMP-authored geometry and its downstream result in Gmsh.</sub>
 </p>
 
 ### Example 2. Ring resonator structure
@@ -82,20 +82,8 @@ A curved-geometry example showing how sector-based primitive templates can be us
 </p>
 
 <p align="center">
-  <sub>Comparison between the geometry authored in TFMP and the corresponding geometry or mesh viewed in Gmsh.</sub>
+  <sub>TFMP-authored geometry and its downstream result in Gmsh.</sub>
 </p>
-
----
-
-## Example Workflow
-
-1. Choose a primitive template
-2. Define dimensions and transform parameters
-3. Add multiple primitives into the scene
-4. Arrange primitives or attach faces between them
-5. Assign physical groups
-6. Configure edge mesh settings
-7. Export GEO for Gmsh-based meshing workflows
 
 ---
 
