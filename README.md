@@ -1,7 +1,7 @@
 # TransfiniteMeshPrimitives (TFMP) — demo
 
 <p align="center">
-  Visual demo for building template-based 3D primitives for Gmsh GEO generation and transfinite meshing workflows, with face attachment, mesh settings, physical groups, and GEO export.
+  Visual demo for authoring template-based 3D primitives for Gmsh GEO workflows, featuring editable geometry construction, face attachment, transfinite-oriented mesh control, physical groups, and GEO export.
 </p>
 
 <p align="center">
@@ -21,26 +21,23 @@
 
 ## Overview
 
-TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions.
+TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions for downstream meshing workflows.
 
-This repository is presented as a **demo showcase** of the interface and workflow design.  
-It does **not** include source code, executable binaries, or packaged releases.
+Instead of editing Gmsh GEO scripts directly, TFMP focuses on template-based primitive authoring, editable UI-driven geometry construction, face-based assembly, transfinite-oriented mesh control, physical-group preparation, and consistent global ID handling before GEO export.
 
-<p align="center">
-  <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
-</p>
+This repository is presented as a **demo showcase** of the interface and workflow design only.
 
 ---
 
 ## Highlights
 
-- Template-based creation of 3D primitives
+- Template-based authoring of structured 3D primitives
 - Primitive library including rectangular prisms, triangular prisms, sector-based shapes, and annular-sector variants
-- Interactive editing of size, position, and rotation
-- Face-to-face attachment workflow between primitives
-- Physical group assignment for point, line, surface, and volume entities
-- Edge mesh settings for transfinite meshing workflows
-- Geometry preparation for Gmsh GEO export
+- Editable UI for dimensions, placement, and rotation instead of direct GEO scripting
+- Face-to-face attachment workflow for structured geometry assembly
+- Edge-wise mesh settings for transfinite meshing workflows, including node count, distribution mode, and ratio control
+- Physical-group assignment for point, line, surface, and volume entities
+- Consistent geometry preparation and global ID organization for downstream Gmsh GEO export
 - 3D preview with geometry labels and workspace grid
 
 ---
@@ -96,7 +93,7 @@ This repository is intended for:
 - Workflow explanation
 - Feature showcase
 
-This repository does **not** provide:
+It is a demo-only repository and does **not** provide:
 
 - Source code
 - Executable binaries
