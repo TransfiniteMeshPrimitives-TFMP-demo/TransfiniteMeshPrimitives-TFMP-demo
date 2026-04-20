@@ -59,45 +59,30 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 ## Examples
 
-This section presents representative geometry setups created in TFMP and their corresponding downstream results in Gmsh.
+This section presents representative device-oriented examples created in TFMP, with each figure showing a direct comparison between the TFMP-authored geometry and its downstream result in Gmsh.
 
-### Example 1. Multi-primitive composition
+### Example 1. MOSFET structure
 
-An example of combining multiple primitives into a larger structured geometry through placement and face attachment.
+A structured device example showing how TFMP can be used to build and organize MOSFET-like geometry for downstream Gmsh GEO-based workflows.
 
 <p align="center">
-  <img src="assets/demo/examples/example_01_tfmp.png" alt="Example 1 in TFMP" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_01_gmsh.png" alt="Example 1 in Gmsh" width="440">
+  <img src="assets/demo/examples/example_mosfet_comparison.png" alt="MOSFET example: TFMP and Gmsh comparison" width="900">
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
+  <sub>Comparison between the geometry authored in TFMP and the corresponding geometry or mesh viewed in Gmsh.</sub>
 </p>
 
-### Example 2. Sector-based geometry construction
+### Example 2. Ring resonator structure
 
-An example showing sector and annular-sector primitives used to build curved structured geometry.
-
-<p align="center">
-  <img src="assets/demo/examples/example_02_tfmp.png" alt="Example 2 in TFMP" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_02_gmsh.png" alt="Example 2 in Gmsh" width="440">
-</p>
+A curved-geometry example showing how sector-based primitive templates can be used to construct ring-resonator-like structures and pass them into Gmsh workflows.
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
-</p>
-
-### Example 3. Physical-group-ready setup
-
-An example prepared for downstream Gmsh workflows with geometry entities organized into physical groups.
-
-<p align="center">
-  <img src="assets/demo/examples/example_03_tfmp.png" alt="Example 3 in TFMP" width="440">
-  <img src="assets/demo/tfmp_to_gmsh/example_03_gmsh.png" alt="Example 3 in Gmsh" width="440">
+  <img src="assets/demo/examples/example_ring_resonator_comparison.png" alt="Ring resonator example: TFMP and Gmsh comparison" width="900">
 </p>
 
 <p align="center">
-  <sub>Left: geometry authored in TFMP. Right: the corresponding GEO-driven geometry or mesh viewed in Gmsh.</sub>
+  <sub>Comparison between the geometry authored in TFMP and the corresponding geometry or mesh viewed in Gmsh.</sub>
 </p>
 
 ---
