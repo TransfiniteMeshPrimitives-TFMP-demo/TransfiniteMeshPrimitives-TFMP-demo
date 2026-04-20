@@ -13,8 +13,7 @@
   <a href="#why-tfmp">Why TFMP?</a> •
   <a href="#featured-interaction">Featured Interaction</a> •
   <a href="#examples">Examples</a> •
-  <a href="#repository-scope">Repository Scope</a> •
-  <a href="#author">Author</a>
+  <a href="#repository-scope">Repository Scope</a>
 </p>
 
 ---
