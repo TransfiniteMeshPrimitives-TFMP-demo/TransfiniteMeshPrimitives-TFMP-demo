@@ -110,7 +110,6 @@ It is a demo-only repository and does **not** provide:
 
 ---
 
-## Contact
+## Author
 
-**Xi-Jun Fang**  
-Email: fangmbf552688@gmail.com
+Xi-Jun Fang
