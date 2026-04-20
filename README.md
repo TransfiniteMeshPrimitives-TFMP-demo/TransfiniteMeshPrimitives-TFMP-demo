@@ -28,11 +28,11 @@ Instead of editing Gmsh GEO scripts directly, TFMP focuses on template-based pri
 This repository is presented as a **demo showcase** of the interface and workflow design only.
 
 <p align="center">
-  <sub>Short animated workflow preview. Loading may take a few seconds on GitHub.</sub>
+  <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
 </p>
 
 <p align="center">
-  <img src="assets/demo/main_demo.gif" alt="TFMP main demo" width="900">
+  <sub>Short animated workflow preview. Loading may take a few seconds on GitHub.</sub>
 </p>
 
 ---
