@@ -107,6 +107,4 @@ It is a demo-only repository and does **not** provide:
 
 ---
 
-## Author
-
-Xi-Jun Fang
+**Author:** Xi-Jun Fang
