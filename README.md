@@ -11,7 +11,7 @@ Visual demo for authoring template-based 3D primitives for simulation-oriented m
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#why-tfmp">Why TFMP?</a> •
-  <a href="#featured-interaction">Featured Interaction</a> •
+  <a href="#featured-interactions">Featured Interactions</a> •
   <a href="#examples">Examples</a> •
   <a href="#repository-scope">Repository Scope</a>
 </p>
@@ -20,7 +20,7 @@ Visual demo for authoring template-based 3D primitives for simulation-oriented m
 
 ## Overview
 
-TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions for simulation-oriented device modeling workflows.
+TFMP is a visual authoring tool concept for constructing structured 3D geometry from predefined primitive templates and preparing Gmsh-compatible GEO descriptions for simulation-oriented device modeling workflows. It supports interactive geometry construction workflows such as face attachment, face-based extrusion, and primitive duplication.
 
 Directly writing Gmsh GEO scripts is flexible, but it can become less convenient when structured 3D geometry must be built, edited, rearranged, and kept consistent across transfinite settings, physical groups, and entity IDs.
 
@@ -41,6 +41,8 @@ This repository is presented as a **demo showcase** of the interface and workflo
 - Build structured 3D geometry from reusable primitive templates instead of rewriting repeated GEO blocks by hand
 - Edit dimensions, placement, and rotation through an interactive UI instead of repeatedly modifying GEO scripts
 - Assemble multi-part structures through face-to-face attachment instead of manual geometric alignment
+- Create new geometry through face-based extrusion from selected primitive faces
+- Duplicate existing primitives to quickly reuse geometry parameters and continue editing from the copied primitive
 - Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
 - Organize physical groups for point, line, surface, and volume entities before export
 - Keep geometry entities and exported IDs more consistent for downstream Gmsh workflows
@@ -48,7 +50,7 @@ This repository is presented as a **demo showcase** of the interface and workflo
 
 ---
 
-## Featured Interaction
+## Featured Interactions
 
 ### Face attachment
 
@@ -56,6 +58,22 @@ Attach one primitive face to another through a face-matching workflow for struct
 
 <p align="center">
   <img src="assets/demo/face_attachment.gif" alt="Face attachment demo" width="900">
+</p>
+
+### Face-based extrusion
+
+Create structured geometry by extruding selected primitive faces along a specified direction and length.
+
+<p align="center">
+  <img src="assets/demo/face_extrusion.gif" alt="Face-based extrusion demo" width="900">
+</p>
+
+### Primitive duplication
+
+Duplicate existing primitives to quickly reuse geometry parameters and continue editing from the copied primitive.
+
+<p align="center">
+  <img src="assets/demo/primitive_duplication.gif" alt="Primitive duplication demo" width="900">
 </p>
 
 ---
