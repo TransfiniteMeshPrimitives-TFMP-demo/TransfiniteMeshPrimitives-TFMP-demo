@@ -38,16 +38,12 @@ This repository is presented as a **demo showcase** of the interface and workflo
 
 ## Why TFMP?
 
-- Build structured 3D geometry from reusable primitive templates instead of rewriting repeated GEO blocks by hand
-- Edit dimensions, placement, and rotation through an interactive UI instead of repeatedly modifying GEO scripts
-- Duplicate primitives to quickly reuse geometry parameters
-- Attach primitives through face-to-face matching instead of manual alignment
-- Create geometry through face-based extrusion from selected primitive faces
-- Preview the constructed geometry with workspace grid and labels
-- Organize physical groups for point, line, surface, and volume entities before export
+- Build and edit structured 3D geometry from reusable primitive templates
+- Assemble geometry through primitive duplication, face-to-face attachment, and face-based extrusion
+- Preview geometry with workspace grid, labels, and volume-overlap checks
+- Organize physical groups for point, line, surface, and volume entities
 - Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
-- Save project settings for later editing
-- Export Gmsh-compatible GEO files with consistent entity IDs and primitive-overlap warnings
+- Save project settings and export Gmsh-compatible GEO files with consistent entity IDs
 
 ---
 
