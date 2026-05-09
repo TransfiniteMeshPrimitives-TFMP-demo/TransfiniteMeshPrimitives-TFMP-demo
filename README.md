@@ -40,13 +40,14 @@ This repository is presented as a **demo showcase** of the interface and workflo
 
 - Build structured 3D geometry from reusable primitive templates instead of rewriting repeated GEO blocks by hand
 - Edit dimensions, placement, and rotation through an interactive UI instead of repeatedly modifying GEO scripts
-- Assemble multi-part structures through face-to-face attachment instead of manual geometric alignment
-- Create new geometry through face-based extrusion from selected primitive faces
-- Duplicate existing primitives to quickly reuse geometry parameters and continue editing from the copied primitive
-- Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
+- Duplicate primitives to quickly reuse geometry parameters
+- Attach primitives through face-to-face matching instead of manual alignment
+- Create geometry through face-based extrusion from selected primitive faces
+- Preview the constructed geometry with workspace grid and labels
 - Organize physical groups for point, line, surface, and volume entities before export
-- Keep geometry entities and exported IDs more consistent for downstream Gmsh workflows
-- Preview the constructed geometry visually with workspace grid and labels before GEO export
+- Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
+- Save project settings for later editing
+- Export Gmsh-compatible GEO files with consistent entity IDs and primitive-overlap warnings
 
 ---
 
