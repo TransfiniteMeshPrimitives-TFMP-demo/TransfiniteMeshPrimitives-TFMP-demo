@@ -65,14 +65,6 @@ Create structured geometry by extruding selected primitive faces along a specifi
   <img src="assets/demo/face_extrusion.gif" alt="Face-based extrusion demo" width="900">
 </p>
 
-### Primitive duplication
-
-Duplicate existing primitives to quickly reuse geometry parameters and continue editing from the copied primitive.
-
-<p align="center">
-  <img src="assets/demo/primitive_duplication.gif" alt="Primitive duplication demo" width="900">
-</p>
-
 ---
 
 ## Examples
