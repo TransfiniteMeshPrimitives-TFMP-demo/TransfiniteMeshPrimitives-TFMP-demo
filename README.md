@@ -42,7 +42,7 @@ This repository is presented as a **demo showcase** of the interface and workflo
 - Assemble geometry through primitive duplication, face-to-face attachment, and face-based extrusion
 - Preview geometry with workspace grid and labels, and check volume overlaps manually or during GEO export
 - Organize physical groups for point, line, surface, and volume entities
-- Configure edge-wise transfinite mesh settings, including node count, distribution mode, and ratio control
+- Configure per-edge transfinite mesh settings such as node count, distribution mode, and ratio
 - Save project settings and export Gmsh-compatible GEO files with consistent entity IDs
 
 ---
